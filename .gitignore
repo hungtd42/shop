@@ -1,0 +1,17 @@
+/node_modules
+/.scripts
+.env
+.DS_Store
+.yarn
+# Elastic Beanstalk Files
+.elasticbeanstalk/*
+!.elasticbeanstalk/config.yml
+!.elasticbeanstalk/*.cfg.yml
+!.elasticbeanstalk/*.global.yml
+app.test.js
+/dist
+/public/uploads
+/logs/*
+!logs/testing.txt
+/.vscode
+yarn-error.log
